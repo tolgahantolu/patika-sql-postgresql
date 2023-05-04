@@ -13,8 +13,8 @@
 - SELECT \* FROM country
   WHERE country ~~ '\_\_\_\_\_%n';
 
-- SELECT _ FROM film
-  WHERE title ~~_ 't\_\_\_\_%';
+- SELECT \* FROM film
+  WHERE title ~~\* 't\_\_\_\_%';
 
-- SELECT _ FROM film
-  WHERE title ~~_ 'c%' AND length > 90 AND rental_rate = 2.99;
+- SELECT \* FROM film
+  WHERE title ~~\* 'c%' AND length > 90 AND rental_rate = 2.99;
